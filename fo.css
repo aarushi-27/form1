@@ -1,0 +1,36 @@
+body{
+   font-size: 20px;
+   text-align: center;
+   background-image: url("pic.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+input{
+  padding: 4px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid darkblue;
+  transition: 0.1s;
+  outline: none;
+  border-radius: 6px;
+  background-color: beige;
+}
+
+input:focus {
+  border: 3px solid slateblue;
+}
+textarea
+{
+  padding: 2px 12px;
+  margin-bottom: -4px;
+  background-color: beige;
+  box-sizing: border-box;
+  border: 2px solid darkblue;
+  transition: 0.1s;
+  outline: none;
+  border-radius: 6px;
+}
+textarea:focus {
+  border: 3px solid slateblue;
+}

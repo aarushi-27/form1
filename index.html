@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="fo.css">
+</head>
+<body>
+<h1>Employee Interests Survey Form</h1>
+<form>
+  <label for="name">Enter your name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="depart">Enter your department:</label>
+  <input type="text" id="depart" name="depart"><br><br>
+  <label for="about">Tell us a little about yourself:</label>
+   <textarea id="about" name="about"  rows="6" cols="33">
+   </textarea>
+</form>
+
+
+<form>
+<br>
+<label for="excercise" >Do you excercise at home?</label>
+ <input type="radio" id="yes" name="excercise" value="Yes">
+ <label for="yes">Yes</label>
+<input type="radio" id="no" name="exercise" value="No">
+<label for="no">No</label>
+</form>
+<p>How do you like to read about your favourite topics?</p>
+<form>
+  <input type="checkbox" id="books" name="books" value="Books">
+  <label for="books"> Books</label>
+  <input type="checkbox" id="online" name="online" value="Online Resources">
+  <label for="online"> Online Resources</label>
+  <input type="checkbox" id="apps" name="apps" value="Phone Apps">
+  <label for="apps">Phone Apps</label>
+  <input type="checkbox" id="magazines" name="magazines" value="Magazines">
+  <label for="magazines">Magazines</label>
+</form>
+<form>
+<br>
+  <label for="movies">What genre of movies do you like?</label>
+  <select id="movies" name="movies">
+    <option value="comedy">Comedy</option>
+    <option value="thriller">Thriller</option>
+    <option value="horror">Horror</option>
+    <option value="action">Action</option>
+    <option value="romance">Romance</option>
+  </select>
+  <br><br>
+  <input type="submit">
+</form>
+</body>
+</html>
